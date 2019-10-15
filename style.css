@@ -478,6 +478,7 @@ input[type="submit"]:hover{
 
     .nav-link{
         font-size: 4.5rem;
+        text-align: center;
     }
 
     .about-heading h1 {
@@ -534,6 +535,7 @@ input[type="submit"]:hover{
 
     .nav-link {
         font-size: 3.5rem;
+        text-align: center;
     }
 
     .about .container{
