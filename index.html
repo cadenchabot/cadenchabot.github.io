@@ -1,0 +1,191 @@
+<!DOCTYPE html> 
+<html lang=en>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Caden Chabot</title>
+    <!--Animation on scroll-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <!--My CSS-->
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/3d46d02806.js"></script>
+    <!--Google Fonts for Roboto-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="menu-toggler">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <nav class="top-nav">
+            <ul class="nav-list">
+                <li><a href = "index.html" class="nav-link">Home</a></li>
+                <li><a href = "#about" class="nav-link">About</a></li>
+                <li><a href = "#portfolio" class="nav-link">Projects</a></li>
+                <li><a href = "#experience" class="nav-link">Experience</a></li>
+                <!--<li><a href = "#contact" class="nav-link">Contact</a></li>-->
+            </ul>
+        </nav>
+        <div class="landing-text">
+            <h1>Caden Chabot</h1>
+            <h6>Computer Science Co-op Student</h6>
+        </div>
+    </header>
+    <section class="about" id="about">
+        <div class="container">
+            <div class="profile-img" data-aos="fade-right" data-aos-delay="300">
+                <img src="images/me.jpg" alt="Me">
+            </div>
+            
+            <div class="about-details" data-aos="fade-left" data-aos-delay="300">
+                <div class="about-heading">
+                        <h1>About</h1>
+                        <h6>Me</h6>
+                 </div>
+                <p>
+                    I am an undergraduate student at the University of Manitoba in the Computer Science Honours 
+                        Co-op program with a Specialization in software engineering. 
+                        I am passionate about all things technology and am very excited about learning new things 
+                        and improving my skills while pursuing a career in software engineering. 
+                </p>
+                <div class="social-media">
+                        <ul class="nav-list">
+                            <li><a href="https://linkedin.com/in/cadenchabot" target="_blank" class="icon-link"><i class="fab fa-linkedin-in fa-2x"></i></a></li>
+                            <li><a href="https://github.com/cadenchabot" target="_blank" class="icon-link"><i class="fab fa-github fa-2x"></i></a></li>
+                            <li><a href="mailto:chabotc@myumanitoba.ca" target="_blank" class="icon-link"><i class="fas fa-envelope fa-2x"></i></a></li>
+                        </ul>
+                </div>
+
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Projects</h1>
+                <h6>Some of my projects</h6>
+            </div>
+            <!--Jogger-->
+            <div class="portfolio-item">
+                <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="300">
+                    <img src="images/Jogger.png" alt="">
+                </div>
+                <div class="portfolio-description" data-aos="fade-left" data-aos-delay="300">
+                    <h6>C# and .NET Game for IB Computer Science Internal Assessment</h6>
+                    <h1>Jogger</h1>
+                    <p>
+                        Frogger style game developed in C# and .NET without game libraires.
+                        This game taught me a lot about object oriented programming, data structures,
+                        basic graphics, collision detection and designing a project from start to finish.
+                        
+                    </p>
+                    <a href="https://github.com/cadenchabot/Jogger3" target="_blank" class="cta">View on GitHub</a>
+                </div>
+            </div>
+            <!--Quick Cuisine
+            <div class="portfolio-item">
+                    <div class="portfolio-img" data-aos="fade-left" data-aos-delay="300">
+                        <img src="images/Jogger.png">
+                    </div>
+                    <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="300">
+                        <h6>Human Computer Interaction Group Project</h6>
+                        <h1>Quick Cuisine</h1>
+                        <p>
+                            Website to order food at a restaurant. Developed in HTML, CSS, JavaScript, and jQuery.
+                            Focused on user and task-centered design. Used GitHub for source control and collaboration.
+                        </p>
+                        <a href="https://github.com/cadenchabot" target="_blank" class="cta">View on GitHub</a>
+                    </div>
+                    
+            </div>
+            -->
+            <!--This Site-->
+            <div class="portfolio-item">
+                    <div class="portfolio-description has-margin-right" data-aos="fade-left" data-aos-delay="300">
+                            <h6>Personal Website (this website)</h6>
+                            <h1>cadenchabot.com</h1>
+                            <p>
+                                This is my first website. I followed a tutorial and then customized it to my liking.
+                                I gained my first experience with and learned quite a bit about HTML, CSS and jQuery in building it.
+                                It also taught me about responsive design for mobile.
+                            </p>
+                            <a href="https://github.com/cadenchabot" target="_blank" class="cta">View on GitHub</a>
+                        </div>
+                    <div class="portfolio-img" data-aos="fade-right" data-aos-delay="300">
+                        <img src="images/Site.png">
+                    </div>
+                    
+            </div>
+        </div>
+    </section>
+
+    <section class="experience" id="experience">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Work Experience</h1>
+                <h6>Past and Current Jobs</h6>
+            </div>
+            <div class="timeline" data-aos="fade-down" data-aos-delay="300"> 
+                <ul>
+                    <!--Hydro-->
+                    <li class="date" data-date="2019 - Present">
+                        <h1>Manitoba Hydro</h1>
+                        <p>
+                                I designed and developed software to facilitate power systems studies and analysis for
+                                Electrical Engineers in the System Planning Department. 
+                                I created Windows GUI applications in C# with .NET to carry out simulations and visualize study output, 
+                                as well as Python scripts with various libraries for data processing and analysis.
+                        </p>
+                    </li>
+                    <!--TA-->
+                    <li class="date" data-date="2019 - Present">
+                            <h1>University of Manitoba</h1>
+                            <p>
+                                    I directed labs for COMP 2160, Programming Practices. 
+                                    This consists of marking and assisting with assignments in C, focusing on best practices.
+                            </p>
+                        </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!--
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Contact</h1>
+                <h6>Send me an email</h6>
+            </div>
+            <form action="https://script.google.com/macros/s/AKfycbwrdvIRvKPusjm4FvekYgPLEySLOFYXu-DbxaTB9JWDnjf5eek/exec" data-aos="fade-up" data-aos-delay="300">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name..." required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email..." required>
+                <label for="message">Message:</label>
+                <textarea name="message" id="message" placeholder="Type me a message..." cols="30" rows="10"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+            
+        </div>
+    </section>
+    -->
+    <footer class="copyright">
+        <div class="up" id="up">
+            <i class="fas fa-chevron-up" href=#></i>
+            
+        </div>
+        <p>&copy; 2019 Caden Chabot</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
