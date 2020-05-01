@@ -279,6 +279,7 @@ li{
     flex: 1;
     margin-bottom: 5rem;
     margin-top: 5rem;
+    max-width: 500px;
 }
 
 .portfolio-description {
