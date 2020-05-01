@@ -464,13 +464,17 @@ li{
     .icon-container i{
         font-size: 4rem;
     }
+    
+    .portfolio-img img{
+        max-width:300px;
+    }
 
     .timeline ul{
         margin: 0 0 0 auto;
     }
-
     .timeline .date::before{
         left: -24rem;
+        font-size: 1.4rem;
     }
 
     .timeline .date::after{
@@ -513,6 +517,10 @@ li{
         margin: 0 0 2rem 0;
         order: 1;
     }
+    
+    .portfolio-img img{
+        max-width:300px;
+    }
 
     .portfolio-description{
         margin: 0;
@@ -524,7 +532,7 @@ li{
     }
 
     .timeline .date::before{
-        font-size: 1.4rem;
+        font-size: 1rem;
     }
     
     .up {
