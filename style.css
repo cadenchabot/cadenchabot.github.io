@@ -282,6 +282,10 @@ li{
     max-width: 500px;
 }
 
+.portfolio-img img {
+    max-width: 500px;
+}
+
 .portfolio-description {
     flex: 1;
 }
