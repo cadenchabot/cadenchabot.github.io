@@ -1,5 +1,5 @@
 # cadenchabot.github.io
 # Personal Site
 
-My first attempt at a personal site. Followed a YouTube tutorial for general layout and JavaScript functionality.
-Learned a lot about HTML, CSS, and jQuery in building it.
+My first personal site. Followed a YouTube tutorial for general layout and JavaScript functionality.
+A rewrite in React is in progress.
